@@ -11,7 +11,7 @@ ratings.forEach(rating => {
         console.log(rating_value);
         reset();
         rating.style.color = 'white'; 
-        rating.style.backgroundColor = 'hsl(214, 12%, 54%)';
+        rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     });
 });
 
