@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(216, 12%, 8%);
+}
+main {
+    margin: 30px;
+    max-width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+}
+
+
+.rating-state img {
+    padding: 10px;
+    background-color:hsl(216, 12%, 54%, 0.3);
+    border-radius: 50%;
+}
+
+.rating-state h2 {
+    color: white;
+    text-align: left;
+    margin: 20px 0px 10px 0;
+    font-size: 25px;
+}
+
+.rating-state p{
+    line-height: 1.6;
+}
+
+.rating-state .rating-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.rating-state .rating {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:hsl(214, 10%, 28%);
+    transition: 0.5s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rating-state .rating:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rating-state .btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.rating-state .btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-state {
+    display: none;
+    text-align: center;
+}
+
+.thank-you-state img {
+    margin: 0 71px;
+    
+}
+
+.thank-you-state .rating-given {
+    margin: 20px 0px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 10%, 28%);
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#rated {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 10%, 28%);
+}
+
+.thank-you-state h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.thank-you-state p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
